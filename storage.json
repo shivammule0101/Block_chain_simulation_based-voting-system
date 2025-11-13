@@ -1,0 +1,190 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1762269700.544581,
+      "vote": null,
+      "proof": 0,
+      "previous_hash": "0",
+      "hash": "aeebad4a796fcc2e15dc4c6061b45ed9b373f26adfc798ca7d2d8cc58182718e"
+    },
+    {
+      "index": 1,
+      "timestamp": 1762310581.934883,
+      "vote": {
+        "token": "b9f7fa9efd5c49949d73a0f07e200ed4",
+        "candidate_id": "d62989f0-326d-44d7-81eb-d3e918cbcf0e",
+        "candidate": "Test Candidate",
+        "timestamp": 1762310581.9303243
+      },
+      "proof": 5296,
+      "previous_hash": "aeebad4a796fcc2e15dc4c6061b45ed9b373f26adfc798ca7d2d8cc58182718e",
+      "hash": "d36b194f959b77332497493a75a5bb27ad734aae7a122fba583cd5e2a74759b3"
+    },
+    {
+      "index": 2,
+      "timestamp": 1762320753.3007345,
+      "vote": {
+        "token": "f709658c20bd4f99a7ce9059e89da76b",
+        "candidate_id": "c28bc429-8b12-4eed-bd25-f14e10c59eb5",
+        "candidate": "1",
+        "timestamp": 1762320753.2920716
+      },
+      "proof": 1864,
+      "previous_hash": "d36b194f959b77332497493a75a5bb27ad734aae7a122fba583cd5e2a74759b3",
+      "hash": "11fe76d1b8ecf60c9d269aedaf25cf4fd86bdd7fc39a1a9ac9dea79df4ddfa10"
+    },
+    {
+      "index": 3,
+      "timestamp": 1762334368.4501505,
+      "vote": {
+        "token": "53203cf0a69843ac904948ef157e09a8",
+        "candidate_id": "a6e9a1cd-427d-4da7-bd6b-a4182010a2e6",
+        "candidate": "as",
+        "timestamp": 1762334368.4048202
+      },
+      "proof": 12506,
+      "previous_hash": "11fe76d1b8ecf60c9d269aedaf25cf4fd86bdd7fc39a1a9ac9dea79df4ddfa10",
+      "hash": "1efb251380005e44fe950a612ea5c58ca3e6962b9b61cc73068e15247c93b241"
+    },
+    {
+      "index": 4,
+      "timestamp": 1762403983.3926284,
+      "vote": {
+        "token": "fa5ed1455fc64f43833b86be7ac2d843",
+        "candidate_id": "13795322-1909-4dc5-a149-24aae6b45a14",
+        "candidate": "shivam",
+        "timestamp": 1762403983.3763838
+      },
+      "proof": 4074,
+      "previous_hash": "1efb251380005e44fe950a612ea5c58ca3e6962b9b61cc73068e15247c93b241",
+      "hash": "7168e59fa23d3e678385cd17cc6ef0a3b044c2c3163229e560e8a14ed9828d4f"
+    },
+    {
+      "index": 5,
+      "timestamp": 1762420259.153034,
+      "vote": {
+        "token": "e6d006f6bb864db988a6989be7581014",
+        "candidate_id": "b7613d30-dafd-4ddc-bd24-09c0c1a8cd5f",
+        "candidate": "abc",
+        "timestamp": 1762420259.120255
+      },
+      "proof": 4443,
+      "previous_hash": "7168e59fa23d3e678385cd17cc6ef0a3b044c2c3163229e560e8a14ed9828d4f",
+      "hash": "a26d8c3536f0312e2b89209f9a3f9d8a42cc0ae5a586be1a57d6ceef644f8367"
+    },
+    {
+      "index": 6,
+      "timestamp": 1762420512.87954,
+      "vote": {
+        "token": "5d194f194ffe4e009be791d13103042d",
+        "candidate_id": "f9273775-c9db-4ea6-9551-78c671e724c5",
+        "candidate": "bcc",
+        "timestamp": 1762420512.8528907
+      },
+      "proof": 4608,
+      "previous_hash": "a26d8c3536f0312e2b89209f9a3f9d8a42cc0ae5a586be1a57d6ceef644f8367",
+      "hash": "3e50502343f54de4f486e7b9750d383f66a3b86f3eda4177f50e3b57f4ef33a6"
+    }
+  ],
+  "pending_votes": [],
+  "voters": [
+    "92cc2fd6705d2c7bb98484b08da891fdf4019efb9441865ef0ccaaf4b04727c7",
+    "20438ea8160a2618c97bc52837fe0bc32e1238c5f0905d0594d7f6e04d1dc9c7",
+    "961b6dd3ede3cb8ecbaacbd68de040cd78eb2ed5889130cceb4c49268ea4d506",
+    "3486891b372d509c989294a2cde8bb4871a563dd5f6323a39cc9cecd078a98bd",
+    "9834876dcfb05cb167a5c24953eba58c4ac89b1adf57f28f2f9d09af107ee8f0",
+    "730f75dafd73e047b86acb2dbd74e75dcb93272fa084a9082848f2341aa1abb6"
+  ],
+  "voting_open": false,
+  "nodes": [],
+  "admin": {
+    "username": "admin",
+    "password_hash": "scrypt:32768:8:1$qUSHxjhxS91djYH9$90b02d124175f24cbc81a736558fea07abc3e06bddb3b4684d55c2ac4af9a0ed3e87860dd95c4d925114b4c5c2d6c3e00494c762b98789712681240713ebc1ac",
+    "login_attempts": 4
+  },
+  "users": [
+    {
+      "username": "shivam",
+      "password_hash": "scrypt:32768:8:1$Ri73n9EJrTNyBJfs$abc5c4b6ccb8e33f96b92fe8794a2bff9853e3a7e4ac70c171e592ec71f976e4dc2c427e1ba6c470de3b34cc57c7f781e6791d828a37e84e43e51c4104505986",
+      "voter_hash": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+      "created_at": 1762272633.6028354
+    },
+    {
+      "username": "user2",
+      "password_hash": "scrypt:32768:8:1$AbyU5wB68ou1WBsV$223243efd8a3da74cd9c026b25e430996352ee8fb11a26401ff81c4dcffcff155013b17c3f922a04a56e76c2827d900da61269f209cb266ed35096ec46d6c50e",
+      "voter_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "created_at": 1762272692.5859604
+    },
+    {
+      "username": "aa",
+      "password_hash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5"
+    },
+    {
+      "username": "siddhesh",
+      "password_hash": "20438ea8160a2618c97bc52837fe0bc32e1238c5f0905d0594d7f6e04d1dc9c7"
+    },
+    {
+      "username": "smm",
+      "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+    },
+    {
+      "username": "vishal",
+      "password_hash": "2b98fb6954368ff3f28f3367b697c1ae3b3d1e69b82a5de92b58a5e40993bbe0"
+    },
+    {
+      "username": "aaa",
+      "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+    },
+    {
+      "username": "ddd",
+      "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin",
+      "password_hash": "scrypt:32768:8:1$qUSHxjhxS91djYH9$90b02d124175f24cbc81a736558fea07abc3e06bddb3b4684d55c2ac4af9a0ed3e87860dd95c4d925114b4c5c2d6c3e00494c762b98789712681240713ebc1ac",
+      "password_hash_legacy": null,
+      "created_at": 1762272856.5094335
+    },
+    {
+      "username": "admin1",
+      "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+    }
+  ],
+  "candidates": [],
+  "election_started": false,
+  "results": [
+    {
+      "id": "d62989f0-326d-44d7-81eb-d3e918cbcf0e",
+      "name": "d62989f0-326d-44d7-81eb-d3e918cbcf0e",
+      "votes": 1
+    },
+    {
+      "id": "c28bc429-8b12-4eed-bd25-f14e10c59eb5",
+      "name": "c28bc429-8b12-4eed-bd25-f14e10c59eb5",
+      "votes": 1
+    },
+    {
+      "id": "a6e9a1cd-427d-4da7-bd6b-a4182010a2e6",
+      "name": "a6e9a1cd-427d-4da7-bd6b-a4182010a2e6",
+      "votes": 1
+    },
+    {
+      "id": "13795322-1909-4dc5-a149-24aae6b45a14",
+      "name": "13795322-1909-4dc5-a149-24aae6b45a14",
+      "votes": 1
+    },
+    {
+      "id": "b7613d30-dafd-4ddc-bd24-09c0c1a8cd5f",
+      "name": "abc",
+      "votes": 1
+    },
+    {
+      "id": "f9273775-c9db-4ea6-9551-78c671e724c5",
+      "name": "bcc",
+      "votes": 1
+    }
+  ]
+}

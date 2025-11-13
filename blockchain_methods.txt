@@ -1,0 +1,23 @@
+    def start_election(self):
+        """Start a new election."""
+        if self.data.get('election_started', False):
+            raise ValueError('Election is already in progress')
+            
+        self.data['election_started'] = True
+        self.data['voting_open'] = True
+        self.data['voters'] = []  # Reset voters list
+        self.data['pending_votes'] = []  # Reset pending votes
+        self._save()
+        return {'status': 'started'}
+
+    def close_election(self):
+        """Close the current election and finalize results."""
+        if not self.data.get('election_started', False):
+            raise ValueError('No election is in progress')
+            
+        self.data['voting_open'] = False
+        self.data['election_started'] = False
+        # Mine any remaining votes
+        mined = self.mine_pending_votes()
+        self._save()
+        return {'status': 'closed', 'mined_blocks': mined}
